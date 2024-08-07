@@ -1,9 +1,5 @@
 const repeatString = function(word, num) {
-    
-    if (num == 0) {
-        return ''
-    }
-    else if (num < 1) {
+    if (num < 0) {
         return "ERROR"
     }
     let newWord = ""
